@@ -1,0 +1,28 @@
+.movie-card-container {
+  list-style-type: none;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 250px;
+  flex-grow: 1;
+}
+
+.movie-card-image {
+  max-width: 250px;
+}
+.movie-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+.movie-rating {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.btn {
+  padding: 5px 10px;
+  background-color: #808080;
+  color: #ffffff;
+  border: none;
+  font-family: 'Arial';
+}

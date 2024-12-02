@@ -1,0 +1,16 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.route-page-body {
+  display: flex;
+}
+
+.list-movies {
+  display: flex;
+  flex-direction: row;
+  max-width: 95%;
+  flex-wrap: wrap;
+}

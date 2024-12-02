@@ -1,0 +1,19 @@
+.pg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.control-btn {
+  width: 80px;
+  height: 30px;
+  background-color: #808080;
+  color: #ffffff;
+  border: none;
+  font-family: 'Arial';
+}
+
+.page-no {
+  color: #000000;
+  font-family: 'Arial';
+}
