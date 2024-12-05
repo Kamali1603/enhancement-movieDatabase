@@ -78,8 +78,15 @@ class SinglePage extends Component {
       return <p>Loading...</p>
     }
 
-    const {title, image, ratings, duration, genres, releaseDate, overview} =
-      movieDetails
+    const {
+      title,
+      image,
+      ratings,
+      duration,
+      genres,
+      releaseDate,
+      overview,
+    } = movieDetails
 
     return (
       <>
@@ -125,8 +132,12 @@ class SinglePage extends Component {
                   alt={cast.name}
                   className="cast-image"
                 />
-                <p><b>{cast.name}</b></p>
-                <p><i>{cast.character}</i></p>
+                <p>
+                  <b>{cast.name}</b>
+                </p>
+                <p>
+                  <i>{cast.character}</i>
+                </p>
               </li>
             ))}
           </ul>
